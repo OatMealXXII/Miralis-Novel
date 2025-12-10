@@ -101,4 +101,4 @@ Have questions or want to contribute? Join our Discord Server:
 
 **Sorry there're no Discord server for now if you found bugs just sent issues to me thank you.**
 
-VSNL Engine is licensed under the **MIT License**. You are free to use it for commercial and non-commercial projects.
+Miralis Engine is licensed under the **MIT License**. You are free to use it for commercial and non-commercial projects.
