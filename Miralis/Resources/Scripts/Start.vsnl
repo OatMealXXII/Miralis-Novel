@@ -1,0 +1,21 @@
+@char "ระบบ:Default:Center"
+ระบบ: "สวัสดี! นี่คือตัวอย่างสคริปต์ที่รันบน Visual Novel Engine ใหม่ชื่อ Miralis"
+
+@char "Miralis:Default:Center"
+Miralis: "สวัสดี! ฉันชื่อ Miralis ยินดีที่ได้รู้จัก!"
+Miralis: "คุณสามารถแก้ไขสคริปต์นี้ได้ที่ Assets/Miralis/Resources/Scripts/Start.txt"
+Miralis: "หรือใช้ Visual Graph Editor ผ่านทาง VSNL > Graph Editor."
+
+@choice "บอกฉันเพิ่มเติม" -> L_More
+@choice "ลาก่อน" -> L_End
+@stop
+
+[L_More]
+@char "Miralis:Happy:Center"
+Miralis: "Miralis เป็นเครื่องมือสร้างนิยายภาพที่มีน้ำหนักเบา"
+Miralis: "มันรองรับข้อความ ตัวเลือก เสียง และอื่นๆ อีกมากมาย"
+@goto L_End
+
+[L_End]
+@char "Miralis:Default:Center"
+Miralis: "ขอให้สนุกกับการสร้างสรรค์!"

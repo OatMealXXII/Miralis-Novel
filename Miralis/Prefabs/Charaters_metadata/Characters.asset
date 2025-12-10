@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f63ff5f046aca4289d6f5b9e2ba87b, type: 3}
+  m_Name: Characters
+  m_EditorClassIdentifier: Assembly-CSharp::VSNL.Core.Data.CharacterMetadata
+  Characters:
+  - CharacterID: 01
+    DisplayName: Elysia
+    NameColor: {r: 1, g: 1, b: 1, a: 0}
+    Live2DModelPrefab: {fileID: 0}
+    Emotions:
+    - EmotionName: Default
+      SpriteAsset: {fileID: 9095853184155359625, guid: 5d4620bfa60ef574b9aeaaf3ae71455c, type: 3}
+      Live2DExpressionParam: 
+    - EmotionName: Happy
+      SpriteAsset: {fileID: 7985626363670038235, guid: 58655a3d5462fc74cbb3bfd6dd300a3d, type: 3}
+      Live2DExpressionParam: 
+    - EmotionName: Sad
+      SpriteAsset: {fileID: -3752711834126370623, guid: 9d3066b3f6f60f24aac53630320d66e9, type: 3}
+      Live2DExpressionParam: 
+    - EmotionName: Angry
+      SpriteAsset: {fileID: 621222158458474870, guid: 87d1db1dac9436f40ab38052b0520f87, type: 3}
+      Live2DExpressionParam: 
+    - EmotionName: Smile
+      SpriteAsset: {fileID: 7801881510924318990, guid: ac15c0b9c558b214b939b0eed3c06e2f, type: 3}
+      Live2DExpressionParam: 
+    - EmotionName: Surprised
+      SpriteAsset: {fileID: 5767058898976193538, guid: 504ec63c4e174f842bf13bbe6a2fc5f8, type: 3}
+      Live2DExpressionParam: 

@@ -1,0 +1,21 @@
+@char "System:Default:Center"
+System: "Welcome to Miralis Engine!"
+
+@char "Miralis:Default:Center"
+Miralis: "Hello! This is a sample script running on the new engine."
+Miralis: "You can edit this script in Assets/Miralis/Resources/Scripts/Start.txt"
+Miralis: "Or use the Visual Graph Editor via VSNL > Graph Editor."
+
+@choice "Tell me more" -> L_More
+@choice "Goodbye" -> L_End
+@stop
+
+[L_More]
+@char "Miralis:Happy:Center"
+Miralis: "Miralis is a lightweight Visual Novel engine."
+Miralis: "It supports text, choices, audio, and more."
+@goto L_End
+
+[L_End]
+@char "Miralis:Default:Center"
+Miralis: "Have fun creating!"
